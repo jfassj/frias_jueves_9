@@ -2,6 +2,24 @@
   text-align: center;
 }
 
+.logo{
+  justify-content: center;
+  align-items: center;
+  height: 20vw;
+  width: 150vh;
+}
+
+body{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to bottom right, pink, purple);
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

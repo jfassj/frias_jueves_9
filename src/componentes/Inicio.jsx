@@ -1,4 +1,4 @@
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row, Button } from "react-bootstrap";
 import React from "react";
 
 function Alumno() {
@@ -19,6 +19,9 @@ function Alumno() {
                     <p>La sentencia return se emplea para salir de la secuencia de ejecución de las sentencias de un método y, opcionalmente, devolver un valor. Tras la salida del método se vuelve a la secuencia de ejecución del programa al lugar de llamada de dicho método.</p>
                 </Col>
             </Row>
+            <Container className="">
+                <Button as="a" href="" target="_blank">GIT HUB INTEGRADORA</Button>
+            </Container>
         </Container>
         </>
      );
